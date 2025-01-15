@@ -23,8 +23,8 @@ DomElement.prototype.createElem = function() {
 };
  
   
-  const domElement = new DomElement('#elem', '100px', '37%', 'green', '25px', 'Элемент класса');
+  const domElement = new DomElement('#best', '100px', '37%', 'green', '25px', 'Элемент класса');
   domElement.createElem(); 
-  domElement.selector = '.new-elem';
+  domElement.selector = '.block';
   domElement.height = '50px';
   domElement.createElem();
